@@ -16,7 +16,7 @@ const Certifications = () => {
       link: "https://drive.google.com/file/d/1Ep6O-awdvsLYcCoJ-61Qz1jEEGFUveIm/view",
     },
     {
-      image: "/images/HackerRank.avif",
+      image: "/images/sql-certificate.png",
       title: "SQL Intermediate Certificate",
       description: "HackerRank",
       link: "https://www.hackerrank.com/certificates/504a63aca6de",
@@ -24,13 +24,18 @@ const Certifications = () => {
   ];
 
   return (
-    <div className="mt-16 mx-32">
-      <h1 className="text-amber-200 text-6xl font-semibold mb-6">
+    <div className="mt-6 mx-32">
+      <h1 className="text-amber-200 text-6xl font-semibold mt-32 ">
         Certifications
       </h1>
-      <div className="flex justify-evenly pt-12">
+      <div className="flex justify-around gap-8 mt-16">
         {certificateCards.map((item, index) => (
-          <Card item={item} link={item.link} key={index} />
+          <div
+            key={index}
+            className="shadow-lg shadow-purple-600  rounded-lg hover:scale-110 transition transform duration-300"
+          >
+            <Card item={item} link={item.link} />
+          </div>
         ))}
       </div>
     </div>

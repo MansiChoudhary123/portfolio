@@ -8,6 +8,7 @@ import Link from "next/link";
 import AboutMe from "@/components/AboutMe";
 import Certifications from "@/components/Certifications";
 import Projects from "@/components/Projects";
+import ContactMe from "@/components/ContactMe";
 
 export default function Home() {
   const profileArray = [
@@ -90,6 +91,7 @@ export default function Home() {
         <AboutMe />
         <Certifications />
         <Projects />
+        <ContactMe />
       </main>
     </div>
   );

@@ -6,14 +6,12 @@ const Card = ({ item, link }) => {
       href={link}
       target="_blank"
       rel="noopener noreferrer"
-      className="w-[350px] h-auto border-[1px] border-violet-600  bg-black text-orange-300 rounded-lg shadow-xl hover:scale-110 transition transform duration-300 overflow-hidden"
+      className="w-full  border-[1px] border-violet-600   text-orange-300 rounded-lg  overflow-hidden"
     >
       {item.image && (
-        <img
-          src={item.image}
-          alt={item.title}
-          className="w-full h-[150px] object-cover rounded-t-sm border-b-2"
-        />
+        <div className=" w-full rounded-t-sm border-b-2">
+          <img src={item.image} alt={item.title} />
+        </div>
       )}
 
       <div className="p-4">
