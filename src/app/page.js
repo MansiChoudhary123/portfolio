@@ -81,7 +81,7 @@ export default function Home() {
           </div>
           <div className="max-h-[400px] max-w-[300px] rounded-full">
             <img
-              src="/Images/profile2.png"
+              src="/Images/profile.jpeg"
               alt="Profile Image"
               className="rounded-full"
               style={{ height: "100%", width: "100%" }}
