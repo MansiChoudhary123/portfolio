@@ -90,7 +90,7 @@ export default function Home() {
         </div>
         <AboutMe />
         <Certifications />
-        <Projects />
+        <Projects  />
         <ContactMe />
       </main>
     </div>

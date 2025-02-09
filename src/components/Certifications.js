@@ -24,7 +24,7 @@ const Certifications = () => {
   ];
 
   return (
-    <div className="mt-6 mx-32">
+    <div className="mt-6 mx-32" id="certificates">
       <h1 className="text-amber-200 text-6xl font-semibold mt-32 ">
         Certifications
       </h1>
